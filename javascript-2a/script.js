@@ -48,24 +48,24 @@
 
 // console.log(""); // Empty Line
 
-// Adding elements to the end with push()
-let shoppingList = ["milk", "bread"];
-console.log("Original list:", shoppingList);
+// // Adding elements to the end with push()
+// let shoppingList = ["milk", "bread"];
+// console.log("Original list:", shoppingList);
 
-shoppingList.push("eggs");
-shoppingList.push("cheese", "butter"); // Can add multiple items
-console.log("After adding items:", shoppingList);
+// shoppingList.push("eggs");
+// shoppingList.push("cheese", "butter"); // Can add multiple items
+// console.log("After adding items:", shoppingList);
 
-console.log(""); // Empty Line
+// console.log(""); // Empty Line
 
-// Adding elements to the beginning with unshift()
-shoppingList.unshift("apple");
-console.log("Final list:", shoppingList);
+// // Adding elements to the beginning with unshift()
+// shoppingList.unshift("apple");
+// console.log("Final list:", shoppingList);
 
-// Removing the first element with shift()
-let firstItem = shoppingList.shift();
-console.log("Removed first item:", firstItem);
-console.log("Final list:", shoppingList);
+// // Removing the first element with shift()
+// let firstItem = shoppingList.shift();
+// console.log("Removed first item:", firstItem);
+// console.log("Final list:", shoppingList);
 
 // console.log(""); // Empty Line
 
@@ -137,49 +137,47 @@ console.log("Final list:", shoppingList);
 
 
 
-// // INTRODUCTION TO LOOPS MARKDOWN
-// // MY FIRST FOR LOOP
-// // Basic for loop structure:
-// // for (initialization; condition; increment) {code to repeat}
-// // Simple counting loop
-// console.log("Counting from 1 to 5:");
-// for (let i = 1; i <= 5; i++) {
-//     console.log("Count:", i);
-// }
+// INTRODUCTION TO LOOPS MARKDOWN
+// MY FIRST FOR LOOP
+// Basic for loop structure:
+// for (initialization; condition; increment) {code to repeat}
+// Simple counting loop
+console.log("Counting from 1 to 5:");
+for (let i = 1; i <= 5; i++) {
+    console.log("Count:", i);
+}
 
-// console.log(""); // Empty line
+console.log(""); // Empty line
 
-// // Counting backwards
-// console.log("Countdown from 5 to 1:");
-// for (let i = 5; i >= 1; i--) {
-//     console.log("Countdown:", i);
-// }
-// console.log("Blast off!");
+// Counting backwards
+console.log("Countdown from 5 to 1:");
+for (let i = 5; i >= 1; i--) {
+    console.log("Countdown:", i);
+}
+console.log("Blast off!");
 
-// console.log(""); // Empty line
+console.log(""); // Empty line
 
-// // Using loops with calculations
-// console.log("Multiplication table for 3:");
-// for (let i = 1; i <= 10; i++) {
-//     let result = 3 * i;
-//     console.log(`3 × ${i} = ${result}`);
-// }
+// Using loops with calculations
+console.log("Multiplication table for 3:");
+for (let i = 1; i <= 10; i++) {
+    let result = 3 * i;
+    console.log(`3 × ${i} = ${result}`);
+}
 
-// console.log(""); // Empty line
+console.log(""); // Empty line
 
-// // Loop with different step sizes
-// console.log("Even numbers from 2 to 10:");
-// for (let i = 2; i <= 10; i += 2) {  // i += 2 means i = i + 2
-//     console.log("Even number:", i);
-// }
+// Loop with different step sizes
+console.log("Even numbers from 2 to 10:");
+for (let i = 2; i <= 10; i += 2) {  // i += 2 means i = i + 2
+    console.log("Even number:", i);
+}
 
-// console.log(""); // Empty line
+console.log(""); // Empty line
 
-// // Loop through an array using index
-// let colors = ["red", "green", "blue", "yellow"];
-// console.log("Colors in the array:");
-// for (let i = 0; i < colors.length; i++) {
-//     console.log(`Color ${i + 1}: ${colors[i]}`);
-// }
-
- 
+// Loop through an array using index
+let colors = ["red", "green", "blue", "yellow"];
+console.log("Colors in the array:");
+for (let i = 0; i < colors.length; i++) {
+    console.log(`Color ${i + 1}: ${colors[i]}`);
+}
